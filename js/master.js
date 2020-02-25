@@ -1,0 +1,13 @@
+const $question1 = $('#question1').addClass('answer');
+const $question2 = $('.question2').addClass('answer');
+const $question3 = $('.question3 > span').addClass('answer');
+const $question4 = $('.question4 div').addClass('answer');
+const $question5 = $('.question5 div div div').addClass('answer');
+const $question6 = $('.question6 p').addClass('answer');
+const $question7 = $('.question7 p, .question7 a').addClass('answer');
+const $question8 = $('.question8 li:first-child').addClass('answer');
+const $question9 = $('.question9 li:last-child').addClass('answer');
+const $question10 = $('.question10 li:last-child a').addClass('answer');
+const $question11 = $('.question11 a[href]').addClass('answer');
+const $question12 = $('.question12 a[href^="http:"]').addClass('answer');
+const $question13 = $('.question13 a:not([href])').addClass("answer");
